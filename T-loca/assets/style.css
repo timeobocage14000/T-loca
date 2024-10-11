@@ -1,0 +1,168 @@
+h1{
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
+header{
+    display: flex;
+    background-color: aliceblue;
+   
+}
+h2{
+    text-align: center; 
+    box-shadow: 2px 0px 16px 5px black;
+    border-radius: 5px;
+    margin: auto;
+    width: 300px;
+    
+    
+}
+
+nav{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    border: 3px black solid ;
+    border-radius: 5px;
+    padding: 6px;
+    overflow: hidden;
+    transition: transform 1s ease;
+    margin: 5px;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform:scale(1.1)
+    
+}
+
+.texte{
+    font-family: "Fredoka", sans-serif;
+}
+
+.previsu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: transform 1s ease;
+    text-decoration: none;
+    margin: 2em;
+    
+    
+}
+
+
+.element:hover{
+    transform:scale(1.1)
+}
+
+.bien{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bien img{
+    border-radius: 50px;
+}
+
+.premier{
+    display: grid;
+    grid-column: 1/2;
+
+}
+
+
+
+.reste{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10%;
+    border-radius: 50px;
+}
+.reste img{
+    border-radius: 50px;
+}
+
+h4{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    
+}
+h4 ul{
+    text-align: start;
+}
+
+form{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+body{
+    flex-wrap: wrap;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+
+@media(max-width:720px){
+    .premier img{
+        width: 30em;
+        height: 20em;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header img{
+        width: 10em;
+    }
+    .reste img{
+        width: 28em;
+        height: 18em;
+    }
+}
+@media(max-width:500px){
+    .premier img{
+        width: 22em;
+        height: 12em;
+    }
+    .reste img{
+        width: 20em;
+        height: 10em;
+    }
+}
